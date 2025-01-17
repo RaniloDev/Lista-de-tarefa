@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Righteous", serif;
+    outline: none;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-hexagonal-gradiente_23-2148954968.jpg?t=st=1737146599~exp=1737150199~hmac=f0e8ecfcd0b9e475ac9700dae1e6a786ebfe9c837e64b4827ceaab0372b37918&w=1380);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+img {
+    height: 25px;
+}
+
+.container {
+    background-color: #ffffff1f;
+    backdrop-filter: blur(20px);
+    border: 3px solid #ffffff2a;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.input-task {
+    background-color: #ffffff46;
+    border: none;
+    color: #FFF;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    padding-left: 15px;
+    padding: 22px;
+}
+
+.input-task::placeholder {
+    color: #d4d4d4;
+}
+
+.button-add {
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    height: 40px;
+    color: #FFF;
+    font-size: 17px;
+    padding: 5px 15px;
+    float: right;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.button-add:hover {
+    background-color: rgb(109, 33, 180);
+    color: #d6d6d6;
+    transition: 0.3s;
+}
+
+.button-add:active {
+    background-color: red;
+    color: #FFF;
+}
+
+.list-task {
+    width: 100%;
+    list-style: none;
+    margin-top: 40px;
+    color: #FFF;
+}
+
+.task {
+    background-color: #ffffff6b;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.task:hover img{
+    opacity: 1;
+}
+
+.line {
+    text-decoration: rgb(163, 66, 255) 2px line-through;
+}

@@ -1,0 +1,25 @@
+@media (max-width: 480px) {
+    main {
+        max-width: 100%;
+    }
+
+    .input-task{
+        width: 220px;
+    }
+
+    .button-add {
+        float: none;
+        width: 100px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .list-task {
+        width: 90%;
+        margin-left: 18px;
+    }
+
+    img {
+        opacity: 1;
+    }
+}
